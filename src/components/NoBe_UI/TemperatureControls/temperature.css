@@ -1,0 +1,44 @@
+.app-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.temperature-display-container {
+    /* border: 1px solid black; */
+    background-color: rgb(238, 229, 229);
+    border-radius: 40px;
+    height: 300px;
+    width: 300px;
+    box-shadow: 1px 2px 8px 2px;
+    padding: 50px;
+}
+
+.temperature-display-container:hover {
+    /* transition: all; */
+    /* background-color: rgb(34, 32, 32); */
+    transform: 1sec
+}
+
+.temperature-dispaly {
+    padding: 40px;
+    border: 1px solid;
+    border-radius: 70%;
+    color: white;
+}
+
+.temperature-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cold {
+    background-color: skyblue;
+    /* opacity: 0.5; */
+    transition: 1s;
+}
+
+.hot {
+    background-color: orange;
+    transition: 1s;
+}
