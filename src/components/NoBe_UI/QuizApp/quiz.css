@@ -1,0 +1,48 @@
+.question-box {
+    border: 1px solid black;
+    margin: 5%;
+    /* height: 200px; */
+    width: 90%;
+    height: 80vh;
+    /* background-color: black; */
+    border-radius: 40px;
+    /* background-image: url('../../../../public/adventure2.jpg'); */
+    background-image: url('../../../../public/quiz2.jpg');
+    /* background-color: antiquewhite; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* position: fixed; */
+    /* left: 100px; */
+    background-position: center;
+
+    /* margin: auto; */
+    /* display: felx;justify-content: center; */
+}
+
+.heading {
+    /* border: 1px solid solid; */
+    text-align: center;
+    /* margin-left: 70px; */
+    padding: 10px;
+    color: springgreen;
+}
+
+.Question {
+    /* margin: ; */
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-top: 55px;
+}
+
+* {
+    /* background-color: aliceblue; */
+}
+
+.box {
+    height: 300px;
+    border: 1px solid black;
+    /* margin: auto; */
+    /* background-color: aqua; */
+}
