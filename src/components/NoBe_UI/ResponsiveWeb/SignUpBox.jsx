@@ -152,7 +152,7 @@ const SignUpBox = (props) => {
                   onChange={(event) => changeHandler(event)} />
               </div>
             </div>
-            <div className='row mt-3'>
+            <div className='row mt-2'>
               <Button variant='contained' onClick={signupHandler}>SignUp</Button>
             </div>
             <div>
