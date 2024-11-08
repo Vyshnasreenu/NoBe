@@ -156,12 +156,15 @@ const SignUpBox = (props) => {
               <Button variant='contained' onClick={signupHandler}>SignUp</Button>
             </div>
             <div>
-              <p>Already have an account? <Button className='btn btn-link '
+              <p>Already have an account? <Button className='btn btn-link'
                 onClick={() => {
                   alert("Login Successfully")
                   props?.setIsOpen(false)
                 }}
-              >Login</Button></p>
+              >
+                Login
+              </Button>
+              </p>
             </div>
           </div>
         }
