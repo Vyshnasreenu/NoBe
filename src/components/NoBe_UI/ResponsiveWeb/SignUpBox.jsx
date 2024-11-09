@@ -90,23 +90,15 @@ const SignUpBox = (props) => {
       ...SignupContainer,
       [event.target.name]: event.target.value
     })
-    console.log(event.target.value)
   }
-
-  // const onClose = () => {
-  //   setClose(true)
-  // }
-
 
   return (
     <div className=''>
 
-      {/* {props.open && ( */}
       <CustomPopup
         open={(props.open)}
         onClick={(props.onClick)}
         title="SignUp"
-        // active="active"
         component={
           <div className='contanier'>
             <div className='row'>
